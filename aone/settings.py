@@ -70,7 +70,7 @@ TEMPLATES = [
 ]
 
 ASGI_APPLICATION = 'aone.asgi.application'
-
+WSGI_APPLICATION = 'aone.wsgi.application'
 
 # Database
 # https://docs.djangoproject.com/en/4.2/ref/settings/#databases
